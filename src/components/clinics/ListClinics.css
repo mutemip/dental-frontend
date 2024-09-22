@@ -1,36 +1,33 @@
-/* Container for the clinics table */
 
-  
-  /* Table styling */
   .clinics-table {
-    width: 100%;  /* Make the table take up 100% of the container's width */
-    border-collapse: collapse;  /* Remove space between cells */
-    text-align: left;  /* Align text to the left */
+    width: 100%;  
+    border-collapse: collapse; 
+    text-align: left; 
   }
   
   /* Table header styling */
   .clinics-table th {
-    background-color: #007bff;  /* Blue background for the header */
-    color: white;  /* White text for the header */
-    padding: 12px;  /* Padding inside the header cells */
-    text-transform: uppercase;  /* Uppercase text for headers */
+    background-color: #007bff;  
+    color: white;  
+    padding: 12px; 
+    text-transform: uppercase;  
   }
   
   /* Table cell styling */
   .clinics-table td {
-    padding: 12px;  /* Padding inside the table cells */
-    border-bottom: 1px solid #ddd;  /* Add a border below each cell */
-    color: #333;  /* Dark text color for better readability */
+    padding: 12px;  
+    border-bottom: 1px solid #ddd; 
+    color: #333; 
   }
   
   /* Alternating row colors */
   .clinics-table tr:nth-child(even) {
-    background-color: #f2f2f2;  /* Light gray background for even rows */
+    background-color: #f2f2f2;  
   }
   
   /* Hover effect for rows */
   .clinics-table tr:hover {
-    background-color: #e2e2e2;  /* Slightly darker gray on hover */
+    background-color: #e2e2e2; 
   }
   
   /* Action buttons */
@@ -45,20 +42,20 @@
   }
   
   .view-button {
-    background-color: #28a745;  /* Green for the view button */
+    background-color: #28a745;  
   }
   
   .update-button {
-    background-color: #ffc107;  /* Yellow for the update button */
+    background-color: #ffc107;  
   }
   
   .delete-button {
-    background-color: #dc3545;  /* Red for the delete button */
+    background-color: #dc3545;  
   }
   
   /* Button hover effect */
   .action-button:hover {
-    opacity: 0.9;  /* Slight transparency on hover */
+    opacity: 0.9;  
   }
   
   /* Add Clinic button */
@@ -70,7 +67,7 @@
     border-radius: 4px;
     cursor: pointer;
     margin-bottom: 20px;
-    float: right;  /* Align the add button to the right */
+    float: right; 
   }
   
   .add-clinic-button:hover {

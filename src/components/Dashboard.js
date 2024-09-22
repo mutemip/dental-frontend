@@ -106,9 +106,10 @@ function Dashboard() {
 
   return (
     <div className="dashboard-container">
+      <h1>Bright Smile Dental Dashboard</h1>
       <button className="logout-button" onClick={handleLogout}>
           Logout
-        </button>
+      </button>
       <ListClinics />
       <br />
       <br/>

@@ -29,6 +29,7 @@ function LoginPage() {
 
   return (
     <div className="login-container">
+      <h2>Bright Smile Dental App</h2>
       <h2>Login</h2>
       {error && <p className="error-message">{error}</p>}
       <form className="login-form" onSubmit={handleLogin}>
